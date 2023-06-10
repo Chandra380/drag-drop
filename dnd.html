@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drag&Drop</title>
+        <link rel="stylesheet" href="./dnd.css">
+    </head>
+    <body>
+        <div class="cntr">
+            <div id="left">
+                <div class="item" draggable="true"><img src="./assets/drag.png" draggable="false"/>Item 1</div>
+                <div class="item" draggable="true"><img src="./assets/drag.png" draggable="false"/>Item 2</div>
+                <div class="item" draggable="true"><img src="./assets/moon.jpg" draggable="false" class="image"/></div>
+            </div>
+            <div id="right"></div>
+            <button id="btn">Reset</button>
+        </div>
+        <div id="popup">
+            <p>Success! Element dropped.</p>
+        </div>
+        <script type="text/javascript" src="./dnd.js"></script>
+    </body>
+</html>
